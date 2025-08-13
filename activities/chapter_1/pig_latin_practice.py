@@ -7,7 +7,7 @@ while True:
     word = input("Enter a word: ")
     word_list = list(word)
 
-    if word_list[0] in vowels:
+    if word_list[0] in VOWELS:
         word = f"{word}way"
     else:
         word_list.pop(0)
